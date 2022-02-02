@@ -1,0 +1,59 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        // "checkJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noImplicitAny": false,
+        "jsx": "react",
+        "module" : "esnext",
+        "strictNullChecks": false,
+        "typeRoots": [
+            "node_modules/@types",
+            "typings/**/*"
+        ],
+        "paths": {
+            "@ui": ["components/ui"],
+            "@cmp/*": ["components/*"],
+            "@vendors/*": ["vendors/*"],
+            "@services/*": ["services/*"]
+        },
+        "noImplicitThis": false,
+        "rootDir": ".",
+        "baseUrl": "./app",
+        // "outDir": "./dist/bin",
+        // "outFile": "./bin/index.js",
+        "emitDeclarationOnly": false,
+        "declaration": false,
+        "declarationMap": false,
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "docs/dist"
+    ],
+    "include": [
+        // "**/*.ts",
+        "./typings/**/*.ts",
+        "./app/**/*.ts",
+        "./app/**/*.tsx",
+        "./app/**/*.js",
+        "./docs/app/**/*.js"
+    ]
+}

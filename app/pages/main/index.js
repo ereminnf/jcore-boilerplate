@@ -1,5 +1,7 @@
-import ObjectPhone from "../../components/modal/object";
-import ModalPhone from "../../components/modal/phone";
+import ModalObject from "@cmp/modal/object";
+import jcoreVendor from "@vendors/jcore/vendors";
+import pristineVendor from "@vendors/pristine/vendors";
+import swiperVendor from "@vendors/swiper/vendors";
 
 class MainPage {
     constructor() {
@@ -7,13 +9,15 @@ class MainPage {
     }
 
     init() {
-        jcore.dataHref()
-        jcore.mask.phone($('.main-preview input').get());
+        // jcore.dataHref()
+        // jcore.mask.phone($('.main-preview input').get());
 
-        new ModalPhone({
-            $inputForPhone: $('.main-preview input')
-        });
-        new ObjectPhone();
+        console.log(jcoreVendor, swiperVendor, ModalObject, pristineVendor);
+        // new ModalPhone({
+        //     $inputForPhone: $('.main-preview input')
+        // });
+        // new ObjectPhone();
+
     }
 }
 

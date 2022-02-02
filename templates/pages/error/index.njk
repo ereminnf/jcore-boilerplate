@@ -8,3 +8,13 @@
     </div>
 
 {% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ bundles['css']['app'] }}">
+    <link rel="stylesheet" href="{{ bundles['css']['error'] }}">
+{% endblock %}
+
+{% block js %}
+    <script src="{{ bundles['js']['app'] }}"></script>
+    {# <script src="{{ bundles['js']['main'] }}"></script> #}
+{% endblock %}

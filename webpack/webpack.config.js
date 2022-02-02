@@ -54,14 +54,13 @@ module.exports = (env, argv) => {
                 templatePath: utils.paths.templates,
                 outputPath: path.join(__dirname, '..', 'dist', utils.paths.html),
                 data,
-                filters: utils.filters,
-            }, {
-                chunks: utils.chunks
+                filters: utils.filters
             })
         ],
         resolve: {
             extensions: utils.extensions(),
-            alias: utils.alias()
+            alias: utils.alias(),
+            modules: utils.modules
         },
         performance: {
             hints: false,

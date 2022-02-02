@@ -8,7 +8,8 @@
             "module-resolver",
             {
                 "root": [
-                    "./app"
+                    "app",
+                    "node_modules"
                 ],
                 "alias": {}
             }

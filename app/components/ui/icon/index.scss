@@ -1,3 +1,13 @@
+[class^="ui-icon-"],
+[class*=" ui-icon-"] {
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    flex-shrink: 0;
+    display: inline-flex;
+}
+
 [data-svg-group],
 [data-icon-group] {
     display: flex;
@@ -23,7 +33,6 @@
     flex-shrink: 0;
 }
 
-
-@import './sprite.scss';
-@import './icon.scss';
-@import './svg.scss';
+@import "./sprite.scss";
+@import "./icon.scss";
+@import "./svg.scss";

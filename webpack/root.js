@@ -5,10 +5,6 @@ const path = require('path');
 const rootPath = path.join(__dirname, '..');
 
 const utils = {
-    chunks: {
-        index: ['app', 'main'],
-        error: ['app']
-    },
     paths: {
         root: rootPath,
         app: path.join(rootPath, 'app'),
@@ -91,8 +87,17 @@ const utils = {
         return ['.ts', '.tsx', '.js', '.jsx']
     },
     alias: () => {
-        return {}
-    }
+        return {
+            '@cmp': 'components',
+            '@vendors': 'vendors',
+            '@services': 'services',
+            '@ui': 'components/ui'
+        }
+    },
+    modules: [
+        'app',
+        'node_modules',
+    ],
 }
 
 exports.utils = utils

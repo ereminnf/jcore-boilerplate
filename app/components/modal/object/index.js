@@ -3,7 +3,7 @@ import jcoreVendor from "../../../vendors/jcore/vendors";
 import pristineVendor from "../../../vendors/pristine/vendors";
 import toastifyVendor from "../../../vendors/toastify/vendors";
 
-class ModalPhone {
+class ModalObject {
     constructor(props = {
         $inputForPhone: null
     }) {
@@ -87,4 +87,4 @@ class ModalPhone {
     }
 }
 
-export default ModalPhone
+export default ModalObject
