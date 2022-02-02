@@ -1,0 +1,12 @@
+// AOS
+$aos-distance: 30px;
+
+[data-aos] {
+    &:not([class~="aos-init"]) {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+}
+
+@import "/node_modules/aos/src/sass/aos.scss";

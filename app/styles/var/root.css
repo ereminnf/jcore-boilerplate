@@ -1,0 +1,91 @@
+/* COLORS */
+:root {
+    /* theme */
+    --color-theme-blue: #316bff;
+    --color-theme-yellow: #ffb800;
+    --color-theme-green: #00bc9b;
+    --color-theme-crimson: #ff1f6b;
+    --color-theme-dark: #2a2536;
+    --color-theme-grey: #d4d2d8;
+    --color-theme-greyMedium: #6a6d81;
+    --color-theme-greyLight: #f0f2f9;
+    --color-theme-greyVeryLight: #fbfbff;
+    --color-theme-white: #ffffff;
+
+    /* text */
+    --color-text-grey: #858585;
+
+    /* pallete */
+    --color-pallete-red: var(--color-pallete-red-5);
+    --color-pallete-blue: var(--color-pallete-blue-5);
+    --color-pallete-yellow: var(--color-pallete-yellow-5);
+    --color-pallete-orange: var(--color-pallete-orange-5);
+    --color-pallete-green: var(--color-pallete-green-5);
+    --color-pallete-violet: var(--color-pallete-violet-5);
+    --color-pallete-cyan: var(--color-pallete-cyan-5);
+    --color-pallete-white: var(--color-pallete-white-1);
+    --color-pallete-black: var(--color-pallete-black-9);
+
+    --color-pallete-blue-5: hsl(214, 84%, 50%);
+    --color-pallete-red-5: hsl(0, 100%, 50%);
+    --color-pallete-yellow-5: hsl(52, 100%, 50%);
+    --color-pallete-orange-5: hsl(36, 100%, 50%);
+    --color-pallete-green-5: hsl(136, 50%, 50%);
+    --color-pallete-violet-5: hsl(276, 70%, 50%);
+    --color-pallete-cyan-5: hsl(187, 77%, 50%);
+    --color-pallete-black-9: hsl(17, 2%, 10%);
+    --color-pallete-white-1: hsl(0, 0%, 100%);
+}
+
+/* TYPOGRAPHY */
+:root {
+    --font-main: "Rubik", sans-serif;
+    --font-second: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+
+    --title: 400 56px/78px var(--font-main);
+    --title-lg: 400 40px/48px var(--font-main);
+    --title-md: 400 32px/40px var(--font-main);
+    --title-sm: 400 28px/36px var(--font-main);
+    --title-xs: 400 24px/32px var(--font-main);
+    --text: 400 20px/28px var(--font-main);
+    --text-lg: 400 18px/24px var(--font-main);
+    --text-md: 400 16px/24px var(--font-main);
+    --text-sm: 400 14px/20px var(--font-main);
+    --text-xs: 400 13px/18px var(--font-main);
+    --caption: 400 12px/16px var(--font-main);
+    --caption-lg: 400 10px/12px var(--font-main);
+
+    --title-5: 500 56px/78px var(--font-main);
+    --title-lg-5: 500 40px/48px var(--font-main);
+    --title-md-5: 500 32px/40px var(--font-main);
+    --title-sm-5: 500 28px/36px var(--font-main);
+    --title-xs-5: 500 24px/32px var(--font-main);
+    --text-5: 500 20px/28px var(--font-main);
+    --text-lg-5: 500 18px/24px var(--font-main);
+    --text-md-5: 500 16px/24px var(--font-main);
+    --text-sm-5: 500 14px/20px var(--font-main);
+    --text-xs-5: 500 13px/18px var(--font-main);
+    --caption-5: 500 12px/16px var(--font-main);
+    --caption-lg-5: 500 10px/12px var(--font-main);
+
+    --title-7: 700 56px/78px var(--font-main);
+    --title-lg-7: 700 40px/48px var(--font-main);
+    --title-md-7: 700 32px/40px var(--font-main);
+    --title-sm-7: 700 28px/36px var(--font-main);
+    --title-xs-7: 700 24px/32px var(--font-main);
+    --text-7: 700 20px/28px var(--font-main);
+    --text-lg-7: 700 18px/24px var(--font-main);
+    --text-md-7: 700 16px/24px var(--font-main);
+    --text-sm-7: 700 14px/20px var(--font-main);
+    --text-xs-7: 700 13px/18px var(--font-main);
+    --caption-7: 700 12px/16px var(--font-main);
+    --caption-lg-7: 700 10px/12px var(--font-main);
+}
+
+/* SHADOWS */
+:root {
+    --shadow-card: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-cost: 0px 4px 24px rgba(26, 47, 80, 0.1);
+}

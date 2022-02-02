@@ -1,0 +1,32 @@
+// var
+@import "/app/styles/var/root.css";
+
+// vendors
+@import "/app/vendors/jcore";
+@import "/app/vendors/swiper";
+@import "/app/vendors/toastify";
+
+// base
+@import "/app/styles/base/fonts";
+@import "/app/styles/base/reset";
+
+// components ui
+@import "/public/assets/fonts/icons";
+@import "/app/components/ui/icon";
+@import "/app/components/ui/button";
+@import "/app/components/ui/input";
+@import "/app/components/ui/checkbox";
+@import "/app/components/ui/form";
+@import "/app/components/ui/modal";
+@import "/app/components/ui/link";
+@import "/app/components/ui/select";
+
+// components
+@import "/app/components/header";
+@import "/app/components/footer";
+@import "/app/components/modal/phone";
+@import "/app/components/modal/object";
+
+main.main {
+    overflow: hidden;
+}
